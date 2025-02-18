@@ -46,7 +46,7 @@ function AuditorDashboard() {
       <ul className="list-disc pl-5 mb-4">
         {schemes.map((scheme) => (
           <li key={scheme.id}>
-            <strong>{scheme.name}</strong>: {scheme.description} (Subsidy Amount: ${scheme.subsidyAmount})
+            <strong>{scheme.name}</strong>: {scheme.description} (Subsidy Amount: Rs.{scheme.subsidyAmount})
           </li>
         ))}
       </ul>
@@ -91,7 +91,7 @@ function AuditorDashboard() {
               <td className="border border-gray-300 p-2">{transaction.id}</td>
               <td className="border border-gray-300 p-2">{transaction.schemeId}</td>
               <td className="border border-gray-300 p-2">{transaction.beneficiaryId}</td>
-              <td className="border border-gray-300 p-2">${transaction.amount}</td>
+              <td className="border border-gray-300 p-2">Rs.{transaction.amount}</td>
               <td className="border border-gray-300 p-2">{transaction.date}</td>
               <td className="border border-gray-300 p-2">{transaction.transactionHash}</td>
             </tr>

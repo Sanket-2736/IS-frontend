@@ -32,7 +32,7 @@ function BeneficiaryDashboard() {
     const date = new Date().toLocaleDateString();
     setPayments([...payments, { amount, transactionId, date }]);
     setSubsidies([...subsidies, amount]);
-    setNotification(`Subsidy of $${amount} received.`);
+    setNotification(`Subsidy of Rs.${amount} received.`);
   };
 
   return (
@@ -41,7 +41,7 @@ function BeneficiaryDashboard() {
 
       <div className="dashboard-overview">
         <h2 className="section-title">Dashboard Overview</h2>
-        <p>Total Received Subsidies: ${subsidies.reduce((total, amount) => total + amount, 0)}</p>
+        <p>Total Received Subsidies: Rs.{subsidies.reduce((total, amount) => total + amount, 0)}</p>
         <p>Total Pending Applications: {applications.length}</p>
       </div>
 
@@ -80,7 +80,7 @@ function BeneficiaryDashboard() {
             {payments.map((payment, index) => (
               <tr key={index}>
                 <td>{payment.transactionId}</td>
-                <td>${payment.amount}</td>
+                <td>Rs. {payment.amount}</td>
                 <td>{payment.date}</td>
               </tr>
             ))}
@@ -94,7 +94,7 @@ function BeneficiaryDashboard() {
           {applications.map((app) => (
             <li key={app.id}>{app.schemeName}: Application under review</li>
           ))}
-          {subsidies.length > 0 && <li>Last subsidy received: ${subsidies[subsidies.length - 1]}</li>}
+          {subsidies.length > 0 && <li>Last subsidy received: Rs. {subsidies[subsidies.length - 1]}</li>}
         </ul>
       </div>
     </div>

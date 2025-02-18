@@ -19,7 +19,7 @@ function Home() {
 
   // Sample data for the bar chart
   const data = {
-    labels: ['Scheme A', 'Scheme B', 'Scheme C', 'Scheme D'],
+    labels: ['E-Thela Sahaayata Yojana', 'Pradhan Mantri Kaushal Vikas Yojana', 'Gatidhara Scheme', 'Shilpi Samridhi Yojana'],
     datasets: [
       {
         label: 'Total Subsidy Amount Distributed',

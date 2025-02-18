@@ -53,7 +53,7 @@ function GovernmentDashboard() {
       <div className="overview">
         <p>Total Schemes: {schemes.length}</p>
         <p>Total Beneficiaries: {beneficiaries.length}</p>
-        <p>Total Funds Allocated: ${totalAllocated}</p>
+        <p>Total Funds Allocated: Rs.{totalAllocated}</p>
       </div>
 
       <h2 className="section-title">Create Scheme</h2>
@@ -110,7 +110,7 @@ function GovernmentDashboard() {
       <ul className="transaction-list">
         {transactions.map((transaction, index) => (
           <li key={index} className="transaction-item">
-            {transaction.timestamp}: ${transaction.amount}
+            {transaction.timestamp}: Rs.{transaction.amount}
           </li>
         ))}
       </ul>
