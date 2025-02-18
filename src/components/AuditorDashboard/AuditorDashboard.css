@@ -1,0 +1,105 @@
+/* Container for the entire dashboard */
+.max-w-4xl {
+    max-width: 1024px; /* Limit max width */
+    margin: 0 auto;    /* Center the container */
+    padding: 1rem;     /* Add padding */
+}
+
+/* Headings styles */
+h1 {
+    font-size: 2.25rem; /* Main title */
+    font-weight: bold;  /* Bold text */
+    margin-bottom: 1.5rem; /* Space below */
+}
+
+h2 {
+    font-size: 1.5rem;  /* Subheadings */
+    font-weight: 600;   /* Semi-bold */
+    margin-bottom: 1rem; /* Space below */
+}
+
+h3 {
+    font-size: 1.25rem; /* Smaller subheadings */
+    font-weight: 600;   /* Semi-bold */
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1rem;    /* Normal text */
+    margin-bottom: 1rem; /* Space below */
+}
+
+/* List styles */
+.list-disc {
+    list-style-type: disc; /* Disc for list items */
+}
+
+.pl-5 {
+    padding-left: 1.25rem; /* Left padding for list */
+}
+
+/* Input styles */
+input[type="text"] {
+    border: 1px solid #ccc; /* Border color */
+    padding: 0.5rem;        /* Padding inside input */
+    border-radius: 0.25rem; /* Rounded corners */
+    width: 100%;            /* Full width */
+    box-shadow: none;       /* No shadow */
+}
+
+/* Button styles */
+button {
+    cursor: pointer;        /* Pointer on hover */
+    border: none;           /* Remove default border */
+    border-radius: 0.25rem; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button.bg-blue-500 {
+    background-color: #3B82F6; /* Blue background */
+    color: white;              /* White text */
+}
+
+button.bg-blue-500:hover {
+    background-color: #2563EB; /* Darker blue on hover */
+}
+
+button.bg-gray-300 {
+    background-color: #D1D5DB; /* Light gray background */
+    color: black;              /* Black text */
+}
+
+button.bg-gray-300:hover {
+    background-color: #9CA3AF; /* Darker gray on hover */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* No space between borders */
+    margin-top: 1rem; /* Space above */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Border color */
+    padding: 0.75rem; /* Padding for table cells */
+    text-align: left; /* Left align text */
+}
+
+th {
+    background-color: #F3F4F6; /* Light gray for header */
+    font-weight: bold; /* Bold text */
+}
+
+/* Blockchain simulation section */
+.border {
+    border: 1px solid #ccc; /* Border color */
+}
+
+.p-4 {
+    padding: 1rem; /* Padding inside the border */
+}
+
+.mb-4 {
+    margin-bottom: 1rem; /* Space below sections */
+}

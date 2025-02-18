@@ -1,0 +1,172 @@
+/* About.css */
+
+.max-w-4xl {
+    max-width: 1000px; /* Set maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding for the container */
+    background-color: #f9f9f9; /* Light background for better readability */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  h1 {
+    color: #333; /* Darker color for the main title */
+    transition: color 0.3s ease; /* Transition effect for color */
+  }
+  
+  h1:hover {
+    color: #0056b3; /* Change color on hover */
+  }
+  
+  h2 {
+    color: #007bff; /* Primary color for subsection titles */
+    transition: color 0.3s ease; /* Transition effect for color */
+  }
+  
+  h2:hover {
+    color: #0056b3; /* Change color on hover */
+  }
+  
+  h3 {
+    color: #555; /* Slightly lighter color for FAQ questions */
+    transition: transform 0.3s ease; /* Transition for transform */
+  }
+  
+  h3:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+  .mb-6 {
+    margin-bottom: 30px; /* Increased margin for sections */
+  }
+  
+  p {
+    line-height: 1.6; /* Increase line height for readability */
+    margin-bottom: 12px; /* Space below paragraphs */
+    transition: color 0.3s ease; /* Transition effect for color */
+  }
+  
+  p:hover {
+    color: #333; /* Darken paragraph text on hover */
+  }
+  
+  .list-decimal {
+    padding-left: 20px; /* Padding for list items */
+  }
+  
+  .list-decimal li {
+    margin-bottom: 10px; /* Space between list items */
+    transition: background-color 0.3s ease; /* Transition for background color */
+    border-radius: 4px; /* Rounded corners for list items */
+  }
+  
+  .list-decimal li:hover {
+    background-color: #e7f3ff; /* Light blue background on hover */
+  }
+  
+  strong {
+    color: #2c3e50; /* Color for strong text */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.5rem; /* Adjust font size for subsection headings */
+    }
+  
+    h3 {
+      font-size: 1.25rem; /* Adjust font size for FAQ questions */
+    }
+  }
+  
+  /* About.css */
+
+.max-w-4xl {
+    max-width: 1000px; /* Set maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding for the container */
+    background-color: #f9f9f9; /* Light background for better readability */
+  }
+  
+  h1 {
+    color: #333; /* Darker color for the main title */
+    transition: color 0.3s ease; /* Transition effect for color */
+  }
+  
+  h1:hover {
+    color: #0056b3; /* Change color on hover */
+  }
+  
+  h2 {
+    color: #007bff; /* Primary color for subsection titles */
+    transition: color 0.3s ease; /* Transition effect for color */
+  }
+  
+  h2:hover {
+    color: #0056b3; /* Change color on hover */
+  }
+  
+  h3 {
+    color: #555; /* Slightly lighter color for FAQ questions */
+    transition: transform 0.3s ease; /* Transition for transform */
+  }
+  
+  h3:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+  .mb-6 {
+    margin-bottom: 30px; /* Increased margin for sections */
+  }
+  
+  .p-4 {
+    padding: 16px; /* Padding for sections */
+  }
+  
+  .border {
+    border: 1px solid #ccc; /* Light border for separation */
+  }
+  
+  .rounded-md {
+    border-radius: 8px; /* Rounded corners for sections */
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .list-decimal {
+    padding-left: 20px; /* Padding for list items */
+  }
+  
+  .list-decimal li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  strong {
+    color: #2c3e50; /* Color for strong text */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.5rem; /* Adjust font size for subsection headings */
+    }
+  
+    h3 {
+      font-size: 1.25rem; /* Adjust font size for FAQ questions */
+    }
+  }
+  
+  .about-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }

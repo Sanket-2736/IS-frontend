@@ -1,0 +1,75 @@
+/* Footer.css */
+
+.footer {
+    background-color: #34495e; /* Dark background color */
+    color: #ecf0f1; /* Light text color */
+    padding: 40px 20px; /* Padding around the footer */
+  }
+  
+  .container {
+    max-width: 1200px; /* Maximum width for the footer */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .footer-sections {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between sections */
+    flex-wrap: wrap; /* Allow sections to wrap on smaller screens */
+  }
+  
+  .footer-section {
+    flex: 1; /* Each section takes equal space */
+    min-width: 250px; /* Minimum width for each section */
+    margin: 10px; /* Spacing between sections */
+  }
+  
+  .footer-section h3 {
+    font-size: 20px; /* Font size for section headings */
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  .footer-section p {
+    font-size: 14px; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+  }
+  
+  .footer-section ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0; /* Spacing between list items */
+  }
+  
+  .footer-section a {
+    color: #1abc9c; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .footer-section a:hover {
+    color: #ecf0f1; /* Change color on hover */
+  }
+  
+  .social-icons {
+    display: flex; /* Flexbox for social icons */
+    gap: 15px; /* Space between icons */
+  }
+  
+  .social-icon {
+    color: #ecf0f1; /* Icon color */
+    font-size: 20px; /* Size of the icons */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .social-icon:hover {
+    color: #1abc9c; /* Change icon color on hover */
+  }
+  
+  .footer-bottom {
+    text-align: center; /* Center the copyright text */
+    margin-top: 20px; /* Space above copyright */
+    font-size: 14px; /* Font size for copyright text */
+  }
+  
