@@ -55,17 +55,32 @@ function Signup() {
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-2">Role</label>
-          <select
-            value={role}
-            onChange={(e) => setRole(e.target.value)}
+          <label className="block mb-2">Aadhar Card</label>
+          <input
+            type="file"
             className="w-full border border-gray-300 p-2 rounded"
-          >
-            <option value="Beneficiary">Beneficiary</option>
-            <option value="Government">Government</option>
-            <option value="Auditor">Auditor</option>
-          </select>
+            required
+          />
         </div>
+
+        <div className="mb-4">
+          <label className="block mb-2">Date of Birth</label>
+          <input
+            type="date"
+            className="w-full border border-gray-300 p-2 rounded"
+            required
+          />
+        </div>
+
+        <div className="mb-4">
+          <label className="block mb-2">Aadhar XML File</label>
+          <input
+            type="file"
+            className="w-full border border-gray-300 p-2 rounded"
+            required
+          />
+        </div>
+        
         <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
           Sign Up
         </button>

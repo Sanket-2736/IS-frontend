@@ -9,6 +9,7 @@ import AuditorDashboard from "./components/AuditorDashboard/AuditorDashboard";
 import GovernmentDashboard from "./components/GovernmentDashboard/GovernmentDashboard";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/SignUp/SignUp";
+import ViewSchemes from "./pages/ViewSchemes/ViewSchemes";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/user-dashboard" element={<BeneficiaryDashboard />} />
         <Route path="/admin-dashboard" element={<AuditorDashboard />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/view-schemes" element={<ViewSchemes />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/govt-dashboard" element={<GovernmentDashboard />} />
         <Route path="/about" element={<AboutAndFAQ />} />

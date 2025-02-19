@@ -13,6 +13,7 @@ function Navbar() {
         </div>
         <ul className="nav-links">
           <li><Link to="/user-dashboard">DashBoard</Link></li>
+          <li><Link to="/view-schemes">View Schemes</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
